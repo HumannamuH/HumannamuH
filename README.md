@@ -12,4 +12,5 @@ npm login --registry=https://npm.pkg.github.com --scope=@phanatic
 
 npm publish
 
-    
+
+mvn deploy -Dregistry=https://maven.pkg.github.com/phanatic -Dtoken=$GH_TOKEN
